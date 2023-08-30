@@ -4,4 +4,6 @@ version = "0.1.0"
 entrypoint = "lib.typ"
 authors = ["oplik0"]
 license = "MIT"
-description = "All natural pine, faux fur and a bit of soho vibes for the classy minimalist"
+description = "Soho vibes for Typst in a form of easily applicable theme."
+repository = "https://github.com/oplik0/rose-pine-for-typst"
+exclude = ["src/template.typ", "example.pdf"]
