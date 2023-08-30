@@ -1,0 +1,7 @@
+[package]
+name = "rose-pine"
+version = "0.1.0"
+entrypoint = "lib.typ"
+authors = ["oplik0"]
+license = "MIT"
+description = "All natural pine, faux fur and a bit of soho vibes for the classy minimalist"
