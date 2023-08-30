@@ -37,7 +37,7 @@ You can also use other variants by importing them/passing their name to `apply()
 
 ## Gallery
 
-![Rosé Pine with App](https://user-images.githubusercontent.com/1474821/166155319-06796439-95a7-4aea-910e-927c1f24518e.png)
+![Rosé Pine In Typst](https://github.com/oplik0/rose-pine-typst/assets/25460763/f34120a5-664d-46a5-abcf-9e9976ad1d50)
 
 ## Thanks to
 
