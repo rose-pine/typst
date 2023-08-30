@@ -5,5 +5,5 @@ entrypoint = "lib.typ"
 authors = ["oplik0"]
 license = "MIT"
 description = "Soho vibes for Typst in a form of easily applicable theme."
-repository = "https://github.com/oplik0/rose-pine-for-typst"
+repository = "https://github.com/oplik0/rose-pine-typst"
 exclude = ["src/template.typ", "example.pdf"]
