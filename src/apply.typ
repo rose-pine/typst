@@ -1,9 +1,9 @@
 
 #let apply(
-    variant: "rose-pine"
+  variant: "rose-pine"
 ) = {
-    return  (content) => [
-        #import "themes/" + variant + ".typ": theme
-        #theme(content)
-    ]
+  return  (content) => [
+    #import "themes/" + variant + ".typ": theme
+    #theme(content)
+  ]
 }
