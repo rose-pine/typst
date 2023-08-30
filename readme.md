@@ -16,7 +16,7 @@
 1. Open a Typst document
 2. Import this library:
 ```typst
-#import "@preview/rose-pine:0.1.0": rose-pine, apply
+#import "@preview/rose-pine:0.1.0": apply
 ```
 3. Apply the theme to the document using `#show`:
 ```typst
@@ -24,7 +24,15 @@
 ```
 4. Use other colors anywhere you want:
 ```typst
+#import "@preview/rose-pine:0.1.0": rose-pine
+
 #text(fill: rose-pine.love)[Some red text]
+```
+
+You can also use other variants by importing them/passing their name to `apply()`. E.g.
+```typst
+#import "@preview/rose-pine:0.1.0": apply, rose-pine-dawn
+#show: apply("rose-pine-dawn")
 ```
 
 ## Gallery
