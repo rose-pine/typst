@@ -32,12 +32,17 @@
 You can also use other variants by importing them/passing their name to `apply()`. E.g.
 ```typst
 #import "@preview/rose-pine:0.1.0": apply, rose-pine-dawn
-#show: apply("rose-pine-dawn")
+#show: apply(variant: "rose-pine-dawn")
 ```
 
 ## Gallery
 
-![Rosé Pine In Typst](https://github.com/oplik0/rose-pine-typst/assets/25460763/f34120a5-664d-46a5-abcf-9e9976ad1d50)
+![Rose Pine example Typst document](https://github.com/oplik0/rose-pine-typst/assets/25460763/0f3f4c3a-a923-4587-bd80-92e60165dc7e)
+
+![Rose Pine Moon example Typst document](https://github.com/oplik0/rose-pine-typst/assets/25460763/9b842b68-4f57-4536-955f-7f510b77a579)
+
+![Rose Pine Dawn example Typst document](https://github.com/oplik0/rose-pine-typst/assets/25460763/5b2d211d-d645-4b72-9b58-b73bccfae1ae)
+
 
 ## Thanks to
 
