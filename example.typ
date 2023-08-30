@@ -1,7 +1,8 @@
 #import "lib.typ" : apply
-
 #show: apply()
+#set align(center)
 
+= Example Typst Document
 #set heading(numbering: "1.")
 = Text and headings
 #lorem(30)
