@@ -1,0 +1,26 @@
+on:
+  push:
+    branches:
+      - develop
+permissions:
+  contents: write
+  pull-requests: write
+name: release-please
+jobs:
+  build-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: lts
+      - name: Built theme
+        run: npx @rose-pine/build@latest -t src/template.typ -o src/themes
+      - name: Commit and push
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: 'src/themes'
+          message: 'chore: update themes'
+          
