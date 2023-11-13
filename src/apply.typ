@@ -13,6 +13,7 @@
   #show link: set text(fill: theme-data.iris)
   #show ref: set text(fill: theme-data.foam)
   #show footnote: set text(fill: theme-data.pine)
+  #set raw(theme: theme-data.highlightingTheme)
   #content
 ]
 

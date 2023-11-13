@@ -15,7 +15,8 @@
     low     : rgb("#21202e"),
     med     : rgb("#403d52"),
     high    : rgb("#524f67"),
-  )
+  ),
+  highlightingTheme :"themes/rose-pine.tmTheme",
 )
 
 #let variant = rose-pine

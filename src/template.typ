@@ -15,7 +15,8 @@
     low     : rgb("$highlightLow"),
     med     : rgb("$highlightMed"),
     high    : rgb("$highlightHigh"),
-  )
+  ),
+  highlightingTheme :"themes/$id.tmTheme",
 )
 
 #let variant = $id

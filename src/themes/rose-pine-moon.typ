@@ -15,7 +15,8 @@
     low     : rgb("#2a283e"),
     med     : rgb("#44415a"),
     high    : rgb("#56526e"),
-  )
+  ),
+  highlightingTheme :"themes/rose-pine-moon.tmTheme",
 )
 
 #let variant = rose-pine-moon
