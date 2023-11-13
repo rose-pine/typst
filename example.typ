@@ -114,7 +114,7 @@ So is this reference #highlight[@links].
 
 == Code
 
-Python syntax highlighting example, copied from #link("https://github.com/sharkdp/bat")[bat] (MIT License @ bat-developers).
+Python syntax highlighting example, copied from #link("https://github.com/sharkdp/bat")[bat] (MIT License \@ bat-developers).
 
 ```python
 from os import getcwd
