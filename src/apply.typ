@@ -5,7 +5,7 @@
   #set circle(stroke: theme-data.subtle, fill: theme-data.overlay)
   #set ellipse(stroke: theme-data.subtle, fill: theme-data.overlay)
   #set line(stroke: theme-data.subtle)
-  #set path(stroke: theme-data.subtle, fill: theme-data.overlay)
+  #set curve(stroke: theme-data.subtle, fill: theme-data.overlay)
   #set polygon(stroke: theme-data.subtle, fill: theme-data.overlay)
   #set rect(stroke: theme-data.subtle, fill: theme-data.overlay)
   #set square(stroke: theme-data.subtle, fill: theme-data.overlay)
