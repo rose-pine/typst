@@ -69,12 +69,13 @@ Some text#footnote[footnote test]
 #line(
   length: 4cm,
 )
-== Paths
-#path(
-  closed: true,
-  (0pt, 50pt),
-  (100%, 50pt),
-  ((50%, 0pt), (40pt, 0pt)),
+== Curves
+
+#curve(
+  curve.move((0pt, 50pt)),
+  curve.line((100pt, 50pt)),
+  curve.cubic(none, (90pt, 0pt), (50pt, 0pt)),
+  curve.close()
 )
 
 == Polygons
